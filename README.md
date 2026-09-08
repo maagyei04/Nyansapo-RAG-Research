@@ -6,6 +6,7 @@
 - `notebooks/` — v1 (audit trail) and v2 (current clean pipeline)
 - `figures/` — all 13 publication-ready experiment figures
 - `docs/` — Methods R01, Results R01, Cover Sheet, Group 1 Previous Feedback
+- `Nyansapo Poster` — a full A1-portrait poster of Nyansapo
 
 ## Project Overview
 Nyansapo is a Corrective Retrieval-Augmented Generation (CRAG) AI tutoring 
