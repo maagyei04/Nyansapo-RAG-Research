@@ -1,25 +1,30 @@
-faiss-cpu==1.7.4
-sentence-transformers==2.5.1
-transformers==4.38.0
-bitsandbytes==0.42.0
-accelerate
-langchain==0.3.0
-langchain-text-splitters
-langchain-community
-rank-bm25==0.2.2
-bert-score==0.3.13
-rouge-score
+# Nyansapo — RAG-Grounded AI Tutoring System
+# Versions below reflect the ACTUAL Colab runtime environment under which
+# all v3 results were computed (commit 9bb5d95). The originally pinned
+# scikit-learn==1.3.0 and torch==2.1.2 could not be reproduced in the
+# current Colab base image (no compatible pre-built wheel for the Python
+# version in use); this file was corrected to match reality rather than
+# force a downgrade that silently changes split/metric behaviour.
+
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
 scikit-learn==1.6.1
 torch==2.11.0
-numpy
+
+faiss-cpu
+pymupdf
+python-pptx
+langchain-text-splitters
+sentence-transformers
+transformers
+accelerate
+bitsandbytes
 fastapi
 uvicorn
 pyngrok
 nest-asyncio
-ragas==0.1.0
-pymupdf
-python-pptx
-ollama
-requests
-scipy
+rank-bm25
+bert-score
+rouge-score
 matplotlib
