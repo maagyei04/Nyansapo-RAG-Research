@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "crag": {
+      "empty": 0,
+      "zero_rouge_nonempty": 10
+    },
+    "naive": {
+      "empty": 0,
+      "zero_rouge_nonempty": 11
+    },
+    "bm25": {
+      "empty": 0,
+      "zero_rouge_nonempty": 27
+    },
+    "vanilla": {
+      "empty": 0,
+      "zero_rouge_nonempty": 0
+    }
+  },
+  "examples": {
+    "crag": [
+      {
+        "row": 4,
+        "question": "Describe the three modes of data flow (transmission modes) between two devices.",
+        "answer": "Ans:",
+        "gold_answer": "Communication between two devices can be Simplex (data flows in one direction only e.g. from mainframe to monitor) Half-Duplex (data flows in both directions but not simultaneously \u2014 one device transmits at a time e.g. walkie-talkie) and Full-Duplex (data flows in both directions simultaneously e.g. telephone conversation)."
+      },
+      {
+        "row": 8,
+        "question": "What three criteria must a computer network meet to be considered effective and efficient?",
+        "answer": "1.1 AN EXAMPLE .................................................................................................................................................... 2",
+        "gold_answer": "To be considered effective and efficient a computer network must meet three most important criteria: Performance (measured using transit time and response time and depending on number of users type of transmission medium hardware and software) Reliability (measured by accuracy of delivery frequency of failure recovery time after failure and network readiness in the event of catastrophe) and Security (protecting data from unauthorised access and viruses)."
+      },
+      {
+        "row": 40,
+        "question": "What is entrepreneurship according to Stevenson and Jarillo?",
+        "answer": "Possible output:",
+        "gold_answer": "According to Stevenson and Jarillo entrepreneurship is fundamentally about pursuing opportunities even without controlling the resources required to exploit them. It involves identifying and acting on a favorable set of circumstances to create value regardless of whether the entrepreneur currently controls all the necessary resources."
+      },
+      {
+        "row": 42,
+        "question": "What resources do entrepreneurs combine in launching a venture?",
+        "answer": "1.",
+        "gold_answer": "Entrepreneurs combine multiple resources in the process of launching and growing a venture including money (financial capital) people (human capital such as employees and partners) strategy (the plan and direction for the business) and business models (the framework that defines how the venture creates and captures value)."
+      },
+      {
+        "row": 48,
+        "question": "What are the three types of start-up firms?",
+        "answer": "1. Event Triggered",
+        "gold_answer": "The three types of start-up firms are: Salary-substitute firms which are small businesses that provide owners with an income roughly equivalent to what they would earn in conventional employment (e.g. a local hair salon). Lifestyle firms which provide an owner with the ability to pursue a particular lifestyle while also earning a living (e.g. a surf instructor who runs surf lessons). Entrepreneurial firms which bring new ideas products or services to market with the intent to grow create wealth and eventually achieve significant scale. Government-regulated monopolies are NOT a type of start-up firm."
+      }
+    ],
+    "naive": [
+      {
+        "row": 17,
+        "question": "Describe the four main network topologies.",
+        "answer": "1.31",
+        "gold_answer": "Network topology refers to the way computers and peripherals are configured to form networks. Bus topology: all computers are linked by a single line of cable. Star topology: multiple computers and peripheral devices are linked to a central computer called a host. Ring topology: each computer or workstation is connected to two other computers with the entire network forming a circle. Mesh topology: every device is connected to every other device providing multiple redundant paths. Hybrid topology combines different layout types to meet specific needs."
+      },
+      {
+        "row": 30,
+        "question": "What is CIDR notation (the /n notation) and what does /16 represent in dotted decimal and bitwise notation?",
+        "answer": "\u2022 1.11 Data Encryption",
+        "gold_answer": "CIDR stands for Classless Inter-Domain Routing. The /n notation indicates the number of bits in the network (subnet mask) portion of the address. /16 means the first 16 bits are all ones representing the network portion. In dotted decimal notation /16 is 255.255.0.0 and in bitwise notation it is 11111111.11111111.00000000.00000000."
+      },
+      {
+        "row": 40,
+        "question": "What is entrepreneurship according to Stevenson and Jarillo?",
+        "answer": "Answer:",
+        "gold_answer": "According to Stevenson and Jarillo entrepreneurship is fundamentally about pursuing opportunities even without controlling the resources required to exploit them. It involves identifying and acting on a favorable set of circumstances to create value regardless of whether the entrepreneur currently controls all the necessary resources."
+      },
+      {
+        "row": 69,
+        "question": "What is a competitive analysis grid and what is a non-traditional barrier to entry?",
+        "answer": "Copyright \u00a9 2015 Pearson Education, Inc.",
+        "gold_answer": "A competitive analysis grid is a tool used in the market analysis section of a business plan that organises data about competitors to help the firm identify gaps and competitive advantages relative to existing players. A non-traditional barrier to entry is a unique operational model business model or way of doing business that becomes hard for others to replicate \u2014 as opposed to traditional barriers like capital requirements or government regulation. For example a startup that introduces a disruptive service model that transforms customer expectations creates a non-traditional barrier."
+      },
+      {
+        "row": 78,
+        "question": "What are the three main sources of funding for new ventures and what type of venture suits each?",
+        "answer": "Possible output:",
+        "gold_answer": "New ventures can be funded from three main sources matched to the venture's risk and growth profile: Personal funds friends and family and bootstrapping are most appropriate for high-risk ventures with uncertain returns weak cash flow and unproven management \u2014 when external funders are unlikely to be interested. Debt financing (bank loans SBA loans) is appropriate for lower-risk ventures with strong cash flow low leverage audited financials good management and a healthy balance sheet \u2014 lenders need predictable repayment. Equity financing (angel investors venture capital IPO) is appropriate for ventures offering high returns \u2014 they must have a unique business idea high growth potential a niche market and proven management."
+      }
+    ],
+    "bm25": [
+      {
+        "row": 12,
+        "question": "Distinguish between a LAN and a WAN and list the types of WANs.",
+        "answer": "1.18",
+        "gold_answer": "A Local Area Network (LAN) spans a small area such as a building or office where software applications and resources are stored on a file server and print servers enable multiple users to share the same printer. A Wide Area Network (WAN) spans a large geographical area and includes several types: Metropolitan Area Network (MAN) Public Access Network (PAN) Value Added Network (VAN) and Virtual Private Network (VPN)."
+      },
+      {
+        "row": 14,
+        "question": "What are the three properties used to categorise or classify networks?",
+        "answer": "1. Linear",
+        "gold_answer": "Networks are usually classified using three properties: Protocol (the agreed-on rules for transmitting data) Architecture (the way a network is designed and built \u2014 peer-to-peer or client/server) and Topology (the way computers and peripherals are configured \u2014 bus star ring mesh or hybrid)."
+      },
+      {
+        "row": 39,
+        "question": "What are the common communication protocols used for application-level communication on a network?",
+        "answer": "1. TCP/IP",
+        "gold_answer": "Common application-level communication protocols include: FTP (File Transfer Protocol) \u2014 used to transmit files between systems. SMTP (Simple Mail Transfer Protocol) \u2014 used to transmit e-mail messages. POP (Post Office Protocol) \u2014 allows the recipient to retrieve messages from a mail server. HTTP (Hypertext Transfer Protocol) \u2014 used by web browsers to request and transfer web pages. WAP (Wireless Application Protocol) \u2014 enables wireless devices to access the Internet using a client/server network. 802.11 \u2014 the protocol standard for wireless LAN technology."
+      },
+      {
+        "row": 40,
+        "question": "What is entrepreneurship according to Stevenson and Jarillo?",
+        "answer": "Solution 0:",
+        "gold_answer": "According to Stevenson and Jarillo entrepreneurship is fundamentally about pursuing opportunities even without controlling the resources required to exploit them. It involves identifying and acting on a favorable set of circumstances to create value regardless of whether the entrepreneur currently controls all the necessary resources."
+      },
+      {
+        "row": 48,
+        "question": "What are the three types of start-up firms?",
+        "answer": "1.",
+        "gold_answer": "The three types of start-up firms are: Salary-substitute firms which are small businesses that provide owners with an income roughly equivalent to what they would earn in conventional employment (e.g. a local hair salon). Lifestyle firms which provide an owner with the ability to pursue a particular lifestyle while also earning a living (e.g. a surf instructor who runs surf lessons). Entrepreneurial firms which bring new ideas products or services to market with the intent to grow create wealth and eventually achieve significant scale. Government-regulated monopolies are NOT a type of start-up firm."
+      }
+    ],
+    "vanilla": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "n_pairs": 200,
+  "conditions": [
+    {
+      "cond": "C1",
+      "check": "sign stability",
+      "observed": "flip=0.009",
+      "criterion": "<0.10",
+      "verdict": "PASS"
+    },
+    {
+      "cond": "C2",
+      "check": "fold-sign stability",
+      "observed": "[np.float64(0.0066), np.float64(0.0091), np.float64(0.0277), np.float64(0.0276), np.float64(0.0302)]",
+      "criterion": "same sign, 5/5 folds",
+      "verdict": "PASS"
+    },
+    {
+      "cond": "C3",
+      "check": "achieved power",
+      "observed": "0.4436",
+      "criterion": ">=0.80",
+      "verdict": "FAIL"
+    },
+    {
+      "cond": "C4",
+      "check": "tuning parity",
+      "observed": "0 search constructs, both arms",
+      "criterion": "parity required",
+      "verdict": "PASS"
+    },
+    {
+      "cond": "C5",
+      "check": "single scoring pass",
+      "observed": "confirmed by notebook structure",
+      "criterion": "no re-scoring",
+      "verdict": "PASS"
+    },
+    {
+      "cond": "C6",
+      "check": "seed-selection dependency",
+      "observed": "not applicable",
+      "criterion": "disclosed if applicable",
+      "verdict": "PASS"
+    }
+  ],
+  "passed": 5,
+  "total": 6,
+  "structural_passed": true,
+  "final_verdict": "CLEARED AS INCONCLUSIVE"
+}
