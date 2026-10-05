@@ -11,7 +11,7 @@
     {
       "cond": "C2",
       "check": "fold-sign stability",
-      "observed": "[np.float64(0.0066), np.float64(0.0091), np.float64(0.0277), np.float64(0.0276), np.float64(0.0302)]",
+      "observed": "[0.0066, 0.0091, 0.0277, 0.0276, 0.0302]",
       "criterion": "same sign, 5/5 folds",
       "verdict": "PASS"
     },
